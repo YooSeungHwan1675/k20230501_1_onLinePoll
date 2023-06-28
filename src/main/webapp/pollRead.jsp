@@ -30,7 +30,7 @@
 //	}
 
 //	투표 항목의 개수
-	int itemCount = (poll.size() -1)/2;
+	int itemCount = poll.size()/2;   // 여기 고침요 
 //	out.println(itemCount + "<br>");
 
 %>
